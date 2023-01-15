@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.55d3fdc2.css",
-    "main.js": "/static/js/main.30079c12.js",
+    "main.js": "/static/js/main.18a2a0f5.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/porkshopAngular.png": "/static/media/porkshopAngular.4be624476d246a884c68.png",
     "static/media/itsme.jpg": "/static/media/itsme.bb4453494ebda48042de.jpg",
     "index.html": "/index.html",
     "main.55d3fdc2.css.map": "/static/css/main.55d3fdc2.css.map",
-    "main.30079c12.js.map": "/static/js/main.30079c12.js.map",
+    "main.18a2a0f5.js.map": "/static/js/main.18a2a0f5.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55d3fdc2.css",
-    "static/js/main.30079c12.js"
+    "static/js/main.18a2a0f5.js"
   ]
 }
