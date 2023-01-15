@@ -79,7 +79,7 @@ function Home() {
             </div>
             <div className="links">
               <div>
-              <a href="#about-me"> AboutMe</a>
+              <a href="#about-page"> AboutMe</a>
               </div>
               <div>
               <a href="#projects-page"> Projects </a>
@@ -95,7 +95,7 @@ function Home() {
           </div>
     </div>
       
-      <div className="about">
+      <div id="about-page" className="about">
         <span className="myName">
         <h2> Hi there, I'm Rigsson</h2><br/><br/><br/>
         </span>
