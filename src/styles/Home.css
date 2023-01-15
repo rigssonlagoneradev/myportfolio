@@ -1,0 +1,249 @@
+
+.home {
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+    
+  }
+ .myName {
+  transition-duration: 1s;
+ }
+ .myName:hover {
+  transform: translateY(-15px);
+}
+  
+  .myPic {
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    margin-left: 25px;
+    transition-duration: 0.8s;
+  }
+  .myPic:hover {
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    margin-left: 25px;
+    transition-duration: 0.8s;
+    transform: translateY(-10px);
+  }
+  .sentence {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .info {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    text-align: center;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #35c3b4;
+    color: #f0f0f0;
+  }
+  .wrapper-about{
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #3e497a;
+  }
+  
+  .about h2 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: black;
+    height: 50px;
+    text-shadow:2px 2px #ff0000;
+  }
+  
+  .about .prompt {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .prompt svg {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+  }
+
+  .aboutme {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme h1 {
+    color: #3e497a;
+  }
+  .aboutme span {
+    font-size: 25px;
+  }
+  
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .skills h1 {
+    color: #3e497a;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  .backtop {
+    width:100px;
+    height:50px;
+    border-radius: 25px;
+    box-shadow: 12px 12px 18px rgba(32, 33, 33, 0.64);
+    display: inline;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .aboutme {
+        text-align: center;
+      }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+    .aboutme h2 {
+        font-size: 30px;
+      }
+  }
+  @media only screen and (min-width: 375px) {
+    .myPic {
+      border-radius: 100px;
+      margin-top: 5px;
+      width: 50px;
+    }
+    .wrapper-about{
+      color: white;
+      text-align: center;
+      align-items: center;
+      background-color: #3e497a;
+    }
+    .sentence {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      font-size: 10px;
+      font-weight: lighter;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+  }
+  @media only screen and (min-width: 360px) {
+    .wrapper-about{
+      color: white;
+      text-align: center;
+      align-items: center;
+      background-color: #3e497a;
+    }
+    .sentence {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      font-size: 10px;
+      font-weight: lighter;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .myPic {
+      border-radius: 100px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 150px;
+      margin-left: 25px;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .wrapper-about{
+      color: white;
+      text-align: center;
+      background-color: #3e497a;
+    }
+    .sentence {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-bottom: 25px;
+      font-size: 15px;
+      font-weight: lighter;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .myPic {
+      border-radius: 100px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 200px;
+      margin-left: 25px;
+    }
+  }

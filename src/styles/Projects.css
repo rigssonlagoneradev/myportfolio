@@ -1,0 +1,97 @@
+.proj-title{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  text-shadow:1px 1px #000000;
+}
+.project-page {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.project-card {
+  transition-duration: 0.8s;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);
+}
+.project-card:hover {
+  transition-duration: 0.8s;
+  transform: translateY(-6px);
+  background-color: aquamarine;
+  text-align: center;
+
+  box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);
+}
+
+.project-body {
+  margin: 5px 5px 5p 5px;
+}
+button.proj-Button {
+  border-radius: 12px;
+  background-color: aquamarine;
+  margin-left: 15px;
+  transition-duration: 0.8s;
+}
+button.proj-Button:hover {
+  border-radius: 12px;
+  background-color: cornsilk;
+  margin-left: 15px;
+}
+@media only screen and (max-width: 400px) {
+  .project-page {
+    display: inline;
+    justify-content: center;
+  }
+  .project-card {
+    transition-duration: 0.8s;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);
+  }
+  
+}
+@media only screen and (max-width: 800px) {
+  .project-page {
+    display: inline;
+    justify-content: center;
+  }
+  .project-card {
+    transition-duration: 0.8s;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);
+  }
+  
+}
+
+@media only screen and (min-width: 800px) {
+  .project-page {
+    display: flex;
+    justify-content: center;
+  }
+  .project-card {
+    transition-duration: 0.8s;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);
+  }
+  
+}

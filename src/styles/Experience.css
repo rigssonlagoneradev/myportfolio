@@ -1,0 +1,29 @@
+.experience {
+    background-color: #35c3b4;
+    border-radius: 15px;
+}
+.exp-header{
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+    text-shadow:1px 1px #000000;
+}
+.exp-body {
+    
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.experience-page{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+@media only screen and (max-width: 500px) {
+    .exp-body {
+    
+        width: 100%;
+        margin-left: 5px;
+    }
+    
+  }
