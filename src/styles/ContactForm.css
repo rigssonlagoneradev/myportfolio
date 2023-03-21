@@ -9,7 +9,7 @@
     margin-left: 190px;
     margin-right:190px;
     margin-top:10px;
-    background-color: thistle;
+    background-color: aquamarine;
     box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);
     border-radius: 25px;
     transition-duration: 0.8s;
@@ -33,7 +33,7 @@ form {
 }
 .form-wrapper {
   border-radius: 12px;
-  background-color: thistle;
+  background-color: aquamarine;
   margin-left: 190px;
   margin-right:190px;
   box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);  
@@ -53,7 +53,7 @@ justify-content: center;
   justify-content: center;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: #35c3b4;
+  background-color: aquamarine;
 }
 
 
@@ -68,7 +68,7 @@ text-transform: uppercase;
 letter-spacing: 1.3px;
 font-weight: 700;
 color: #313133;
-background: #4FD1C5;
+background: aquamarine;
 background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
 border: none;
 border-radius: 1000px;
