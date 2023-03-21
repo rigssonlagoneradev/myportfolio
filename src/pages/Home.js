@@ -251,7 +251,7 @@ function Home() {
         </Card.Text>
         <div>
           <GithubIcon/>
-          <button className="proj-Button"><a href="https://github.com/TheFull-StackWebDeveloperGuy">View Project</a></button>
+          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev">View Project</a></button>
         </div> 
       </Card.Body>
       </Card>
