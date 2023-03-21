@@ -204,8 +204,7 @@ function Home() {
       <Card.Body className="project-body">
         <Card.Title>E-commerce Web App</Card.Title>
         <Card.Text>
-          This project is created using a combination of Angular JS,
-          ASP.NET, and API in Microsoft Visual Studio 2022.
+          Please Click View To See This Project
         </Card.Text>
         <div>
           <GithubIcon/>
