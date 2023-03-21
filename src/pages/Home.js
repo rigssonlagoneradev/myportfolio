@@ -109,7 +109,7 @@ function Home() {
           <a href="https://www.linkedin.com/in/rigssonlagonera">
           <LinkedInIcon />
           </a>
-          <a href="https://github.com/TheFull-StackWebDeveloperGuy">
+          <a href="https://github.com/rigssonlagoneradev">
           <GithubIcon />
           </a>
         </div>
@@ -209,7 +209,7 @@ function Home() {
         </Card.Text>
         <div>
           <GithubIcon/>
-          <button className="proj-Button"><a href="https://github.com/TheFull-StackWebDeveloperGuy">View Project</a></button>
+          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev">View Project</a></button>
         </div> 
       </Card.Body>
       </Card>
