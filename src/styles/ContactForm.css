@@ -33,7 +33,7 @@ form {
 }
 .form-wrapper {
   border-radius: 12px;
-  background-color: #35c3b4;
+  background-color: thistle;
   margin-left: 190px;
   margin-right:190px;
   box-shadow: 12px 12px 24px rgba(140, 142, 142, 0.64);  
