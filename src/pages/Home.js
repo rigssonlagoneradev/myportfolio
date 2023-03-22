@@ -100,9 +100,9 @@ function Home() {
         <h2> Hi there, I'm Rigsson</h2><br/><br/><br/>
         </span>
         
-        <p className="info">
-            I'm a Full Stack Web Developer Student at Robertson College.<br/>
-        </p>
+        <h3 className="info">
+            I'm a Full Stack Web Developer Graduated at Robertson College.<br/>
+        </h3>
         
         <div className="prompt">
           
