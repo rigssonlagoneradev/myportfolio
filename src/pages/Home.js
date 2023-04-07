@@ -19,6 +19,8 @@ import "../styles/Projects.css";
 import me from "../assets/itsme.jpg";
 import Card from 'react-bootstrap/Card';
 import proj1 from "../assets/porkshopAngular.png";
+import proj2 from "../assets/reactproject.png";
+import proj3 from "../assets/mygithub.png";
 
 
 function Home() {
@@ -200,54 +202,41 @@ function Home() {
       </div>   
       <div className="project-page">     
       <Card className="project-card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" className="project-img" src={proj1} alt="AngularProject" />
+      <Card.Img variant="top" className="project-img" src={proj2} alt="ReactProject" />
       <Card.Body className="project-body">
-        <Card.Title>E-commerce Web App</Card.Title>
+        <Card.Title>E-commerce Web App School Project made with ReactJS </Card.Title>
         <Card.Text>
           Please Click View Project To See This Project
         </Card.Text>
         <div>
           <GithubIcon/>
-          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev">View Project</a></button>
+          <button className="proj-Button"><a href="https://rigssonlagoneradev.github.io/rl-meatshop/">View Live Demo</a></button>
         </div> 
       </Card.Body>
       </Card>
       <Card className="project-card" style={{ width: '18rem' }}>
       <Card.Img variant="top" className="project-img" src={proj1} alt="AngularProject" />
       <Card.Body className="project-body">
-        <Card.Title>E-commerce Web App</Card.Title>
+        <Card.Title>E-commerce Web App School Project made with AngularJS</Card.Title>
         <Card.Text>
           Please Click View Project To See This Project
         </Card.Text>
         <div>
           <GithubIcon/>
-          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev">View Project</a></button>
+          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev/porkshop">View Project</a></button>
         </div> 
       </Card.Body>
       </Card>
       <Card className="project-card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" className="project-img" src={proj1} alt="AngularProject" />
+      <Card.Img variant="top" className="project-img" src={proj3} alt="GitProjects" />
       <Card.Body className="project-body">
-        <Card.Title>E-commerce Web App</Card.Title>
+        <Card.Title>Check Out My Github Account and Watch Out for New Uploads Here.</Card.Title>
         <Card.Text>
-          Please Click View Project To See This Project
+          Please Click Visit Github Account To See Most of My Projects
         </Card.Text>
         <div>
           <GithubIcon/>
-          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev">View Project</a></button>
-        </div> 
-      </Card.Body>
-      </Card>
-      <Card className="project-card" style={{ width: '18rem' }}>
-      <Card.Img variant="top" className="project-img" src={proj1} alt="AngularProject" />
-      <Card.Body className="project-body">
-        <Card.Title>E-commerce Web App</Card.Title>
-        <Card.Text>
-          Please Click View Project To See This Project
-        </Card.Text>
-        <div>
-          <GithubIcon/>
-          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev">View Project</a></button>
+          <button className="proj-Button"><a href="https://github.com/rigssonlagoneradev">Visit Github Account</a></button>
         </div> 
       </Card.Body>
       </Card>
