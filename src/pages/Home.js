@@ -121,11 +121,8 @@ function Home() {
       <img className="myPic" src={me} alt="me-logo" />
       <p className="sentence"> 
       <h1 id="h1me"> About Me</h1>
-              Hi there, I'm Rigsson Lagonera and I am currently residing in Calgary, Alberta.
-              I enjoy listening to music, playing guitar, singing, and playing multi-player games. 
-              Before I moved to Canada I was a video editor in a Creative Agency called ECOMVIDS for 2 years (2018-2020).
-              I've always been curious as to how websites, games, and different softwares are made. I originally wanted 
-              to become a game developer but lately I have been more interested in web development.
+      Full Stack web developer graduate with experience in developing responsive, easy-to-use, and user-friendly,
+      dynamic web applications according to standards for accessibility, usability, performance, and security.
       </p>
       
       </div>
