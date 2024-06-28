@@ -1,7 +1,8 @@
 
 .home {
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: black;
+    background-color: lightcyan;
     
   }
  .myName {
@@ -10,7 +11,6 @@
  .myName:hover {
   transform: translateY(-15px);
 }
-  
   .myPic {
     border-radius: 100px;
     margin-top: 50px;

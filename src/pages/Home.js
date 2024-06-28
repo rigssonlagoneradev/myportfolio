@@ -99,11 +99,17 @@ function Home() {
       
       <div id="about-page" className="about">
         <span className="myName">
-        <h2> Hi there, I'm Rigsson</h2><br/><br/><br/>
+        <h2> Hi there, I'm Rigsson</h2>
         </span>
+        <img className="myPic" src={me} alt="me-logo" />
+        <p className="sentence"> 
+        <h1 id="h1me"> About Me</h1>
+        </p>
         
         <h3 className="info">
-            I'm a Full Stack Web Developer Graduated at Robertson College.<br/>
+            I'm a Full Stack Web Developer Graduated at Robertson College<br/>
+            with experience in developing responsive, easy-to-use, and user-friendly<br/>
+            dynamic web applications.
         </h3>
         
         <div className="prompt">
@@ -118,24 +124,13 @@ function Home() {
       </div>
      {/*---------------About Page------------------*/}
       <div className="wrapper-about">
-      <img className="myPic" src={me} alt="me-logo" />
-      <p className="sentence"> 
-      <h1 id="h1me"> About Me</h1>
-      Full Stack web developer graduate with experience in developing responsive, easy-to-use, and user-friendly,
-      dynamic web applications according to standards for accessibility, usability, performance, and security.
-      </p>
-      
-      </div>
-      
       {/*---------------Skill------------------*/}
-      <div className="proj-title">
-      <h1><strong>My Skills</strong></h1>
-      </div>
       
       <div className="skills"> 
         
         <ol className="list">
           <li className="item">
+          <h2><strong>SKILLS</strong></h2>
             <h2> Front-End</h2>
             <span>
               ReactJS, Angular, HTML, CSS, BootStrap
@@ -161,35 +156,43 @@ function Home() {
           
         </ol>
       </div>
+      
+      
+      </div>
       <div>
           <h1 className="exp-header">Experience</h1>
       </div>
       <div id="exp" className="experience-page">
         <div className="experience">    
           <div className="exp-body">
-          <h2> <SchoolIcon/> Rugsuanan Alternative Learning Center</h2>
-          <h4>Secondary School Diploma Graduate</h4>
-          <h4>2011-2012</h4>
-          <h2> <SchoolIcon/> University of Northern Philippines</h2>
-          <h3> Bachelor of Arts in Communication </h3>
-          <h4> Bachelor's Degree </h4>
-          <h4>2013-2017</h4>
-          <h2> <WorkIcon/> Bombo Radyo Philippines</h2>
-          <h3> News Writer/Journalist </h3>
-          <h4>2017-2018</h4>
-          <h2> <WorkIcon/> ECOMVIDS </h2>
-          <h3> Senior Video Editor & Team Leader </h3>
-          <h4>2018-2020</h4>
-          <h2> <WorkIcon/> Ice River Water Springs Co. </h2>
-          <h3> Production Worker </h3>
-          <h4>2020-2021</h4>
-          <h2> <WorkIcon/> Amazon DSP </h2>
-          <h3> Delivery Associate </h3>
-          <h4>Year 2021</h4>
           <h2> <SchoolIcon/> Robertson College </h2>
           <h3> Full Stack Web Developer </h3>
           <h4> Diploma Graduate </h4>
           <h4>2022-2023</h4>
+          <h2> <WorkIcon/> Amazon DSP </h2>
+          <h3> Delivery Associate </h3>
+          <h4>Year 2021</h4>
+          <h2> <WorkIcon/> Ice River Water Springs Co. </h2>
+          <h3> Production Worker </h3>
+          <h4>2020-2021</h4>
+          <h2> <WorkIcon/> ECOMVIDS </h2>
+          <h3> Senior Video Editor & Team Leader </h3>
+          <h4>2018-2020</h4>
+          <h2> <WorkIcon/> Bombo Radyo Philippines</h2>
+          <h3> News Writer/Journalist </h3>
+          <h4>2017-2018</h4>
+          <h2> <SchoolIcon/> University of Northern Philippines</h2>
+          <h3> Bachelor of Arts in Communication </h3>
+          <h4> Bachelor's Degree </h4>
+          <h4>2013-2017</h4>
+          <h2> <SchoolIcon/> Rugsuanan Alternative Learning Center</h2>
+          <h4>Secondary School Diploma Graduate</h4>
+          <h4>2011-2012</h4>
+          
+          
+          
+          
+          
           <a href="#home">Back to Top</a>
           </div>
           </div>
@@ -289,7 +292,7 @@ function Home() {
               </a>
               
             </div>
-            <p> &copy; 2023 Rigsson Lagonera</p>
+            <p> &copy; 2024 Rigsson Lagonera</p>
           </div>
       </div>
       
